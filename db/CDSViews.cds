@@ -13,7 +13,7 @@ context CDSViews {
             Items.Product_Id as ![Product]
         };
 
-
+//Sunil GIT Test
     define view ![Product_Customer] as
         select from master.PO as PO join master.Customer as cust
         on $projection.CustomId= cust.Cust_Id
